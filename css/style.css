@@ -36,7 +36,7 @@ a {
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --bg-url: url(./assets/bg-light-desktop.jpg);
+  --bg-url: url(./assets/backgroundsbg-light-desktop.jpg);
 }
 
 .dark {
@@ -45,7 +45,7 @@ a {
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --bg-url: url(./assets/bg-dark-desktop.jpg);
+  --bg-url: url(./assets/backgroundsbg-dark-desktop.jpg);
 }
 
 /* PAGE CONFIG */
@@ -204,9 +204,9 @@ footer p {
 /* MEDIA QUERIES */
 @media(max-width: 768px){
   :root {
-    background: url(./assets/bg-light-mobile.jpg) top center/cover;
+    background: url(./assets/backgroundsbg-light-mobile.jpg) top center/cover;
   }
   .dark body{
-    background: url(./assets/bg-dark-mobile.jpg) top center/cover;
+    background: url(./assets/backgroundsbg-dark-mobile.jpg) top center/cover;
   }
 }
